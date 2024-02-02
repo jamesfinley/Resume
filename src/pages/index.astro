@@ -1,5 +1,6 @@
 ---
-
+import { Content as BioContent } from '../content/bio.md';
+import { Content as ResumeContent } from '../content/resume.md';
 ---
 
 <html lang="en">
@@ -9,8 +10,15 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+		<link rel="stylesheet" href="/assets/css/style.css" />
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<header>
+			<h2>Hey!</h2>
+			<BioContent />
+		</header>
+		<main class="b--resume">
+			<ResumeContent />
+		</main>
 	</body>
 </html>
