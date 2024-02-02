@@ -75,13 +75,13 @@ header {
     }
   }
   p {
-    font-family: var(--font-family--headline);
+    /* font-family: var(--font-family--headline); */
     font-size: var(--font-size--headline-3);
     text-align: center;
     text-wrap: balance;
 
     strong {
-      font-family: var(--font-family--headline-wide);
+      /* font-family: var(--font-family--headline-wide); */
     }
   }
 }
