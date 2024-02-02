@@ -7,7 +7,7 @@
   font-family: Parkly;
   src:
     local("Parkly"),
-    url("/fonts/Parkly-Regular.otf") format("opentype");
+    url("../fonts/Parkly-Regular.otf") format("opentype");
   font-display: block;
 }
 
@@ -15,7 +15,7 @@
   font-family: "Parkly Wide";
   src:
     local("Parkly Wide"),
-    url("/fonts/Parkly-Wide.otf") format("opentype");
+    url("../fonts/Parkly-Wide.otf") format("opentype");
   font-display: block;
 }
 
@@ -23,7 +23,7 @@
   font-family: "Parkly Condensed";
   src:
     local("Parkly Condensed"),
-    url("/fonts/Parkly-Condensed.otf") format("opentype");
+    url("../fonts/Parkly-Condensed.otf") format("opentype");
   font-display: block;
 }
 
