@@ -77,6 +77,8 @@ header {
   p {
     font-family: var(--font-family--headline);
     font-size: var(--font-size--headline-3);
+    text-align: center;
+    text-wrap: balance;
 
     strong {
       font-family: var(--font-family--headline-wide);
@@ -85,7 +87,7 @@ header {
 }
 
 main {
-  width: 960px;
+  width: 600px;
   max-width: calc(100% - 32px);
 
   > * + * {
@@ -100,9 +102,12 @@ h2 {
 
 .b--resume {
   dl {
+    dt {
+      font-size: var(--font-size--body--large);
+      font-weight: bold;
+    }
     dd + dt {
       margin-top: 16px;
-      font-size: var(--font-size--body--large);
     }
     dd {
       margin-left: 16px;
