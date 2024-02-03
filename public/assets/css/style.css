@@ -38,6 +38,13 @@
   --font-family--headline-wide: "Parkly Wide", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
   --font-family--headline-condensed: "Parkly Condensed", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
   --font-family--body: "Lora", "Charter", "Bitstream Charter", "Sitka Text", "Cambria", serif;
+  --color--foreground-1: #000;
+  --color--background-1: #fff;
+
+  @media (prefers-color-scheme: dark) {
+    --color--foreground-1: rgb(255 255 255 / 70%);
+    --color--background-1: #222;
+  }
 
   @media print {
     --font-size--headline-1: 43px;
@@ -53,9 +60,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--color--background-1);
   font-family: Lora, Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
   font-size: var(--font-size--body);
   line-height: 1.5;
+  color: var(--color--foreground-1);
   margin-block: 56px;
 
   @media print {
@@ -87,6 +96,12 @@ header {
   }
 
   h1 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color--foreground-1);
+    mask: url("../images/mark.svg") no-repeat center;
+    text-indent: -9000px;
+
     img {
       display: block;
       height: 100px;
