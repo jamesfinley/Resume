@@ -30,7 +30,7 @@
 :root {
   --font-size--headline-1: clamp(43px, 8vw, 72px);
   --font-size--headline-2: clamp(32px, 6vw, 54px);
-  --font-size--headline-3: clamp(21px, 4vw, 36px);
+  --font-size--headline-3: clamp(18px, 4vw, 30px);
   --font-size--body: 18px;
   --font-size--body--large: 21px;
   --font-size--body--small: 14px;
@@ -75,14 +75,10 @@ header {
   }
 
   p {
-    /* font-family: var(--font-family--headline); */
+    max-width: 60ch;
     font-size: var(--font-size--headline-3);
     text-align: center;
     text-wrap: balance;
-
-    strong {
-      /* font-family: var(--font-family--headline-wide); */
-    }
   }
 }
 
