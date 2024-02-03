@@ -100,7 +100,6 @@ h2 {
   dl {
     dt {
       font-size: var(--font-size--body--large);
-      font-weight: bold;
     }
 
     dd + dt {
@@ -110,6 +109,24 @@ h2 {
     dd {
       margin-left: 16px;
       font-size: var(--font-size--body--small);
+
+      strong {
+        &::after {
+          content: ":";
+        }
+      }
+
+      ul {
+        display: inline;
+
+        li {
+          display: inline;
+
+          &:not(:last-child)::after {
+            content: ", ";
+          }
+        }
+      }
     }
   }
 
