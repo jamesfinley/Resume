@@ -15,7 +15,9 @@
     "@astrojs/check": "^0.4.1",
     "astro": "^4.3.1",
     "remark-definition-list": "^2.0.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "autoprefixer": "^10.4.15",
+    "postcss-nesting": "^11.3.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
