@@ -55,6 +55,12 @@ body {
   }
 }
 
+.flow {
+  > * + * {
+    margin-top: 16px;
+  }
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -62,10 +68,6 @@ header {
   width: 1200px;
   max-width: calc(100% - 32px);
   margin-bottom: 32px;
-
-  > * + * {
-    margin-top: 16px;
-  }
 
   h1 {
     img {
@@ -85,10 +87,6 @@ header {
 main {
   width: 600px;
   max-width: calc(100% - 32px);
-
-  > * + * {
-    margin-top: 16px;
-  }
 }
 
 h2 {
