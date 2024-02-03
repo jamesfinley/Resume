@@ -183,6 +183,12 @@ h2 {
         }
       }
     }
+
+    /* Date range */
+    dd:has(+ dt),
+    dd:last-child {
+      margin-top: 8px;
+    }
   }
 
   dl + h2 {
