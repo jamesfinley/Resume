@@ -1,12 +1,12 @@
 ## Experience
 WWT - Lead UX Frontend Engineer
 : Worked with a half a dozen large and small clients building applications React, Angular, and Craft CMS driven web applications.
-: **Skills**: React, Angular, TypeScript, JavaScript, PHP, mySQL, Craft CMS, UX, interface design
+: **Skills used**: React, Angular, TypeScript, JavaScript, PHP, mySQL, Craft CMS, UX, interface design
 : *August 2018 -- February 2024*
 
 Intercard - iOS Engineer
 : Built a series of iOS and Android apps for in-store and customer use.
-: **Skills**: Swift, C#, Xamarin, Angular 4, JavaScript, HTML, CSS
+: **Skills used**: Swift, C#, Xamarin, Angular 4, JavaScript, HTML, CSS
 : *August 2017 -- August 2018*
 
 Emerson Climate Technologies - Front-End Web Developer
