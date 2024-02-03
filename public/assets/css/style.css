@@ -29,12 +29,12 @@
 
 :root {
   /* fonts */
-  --font-size--headline-1: clamp(43px, 8vw, 72px);
-  --font-size--headline-2: clamp(32px, 6vw, 54px);
+  --font-size--headline-1: clamp(41px, 8vw, 66px);
+  --font-size--headline-2: clamp(27px, 6vw, 45px);
   --font-size--headline-3: clamp(18px, 4vw, 30px);
   --font-size--body: 18px;
   --font-size--body--large: 21px;
-  --font-size--body--small: 14px;
+  --font-size--body--small: 15px;
   --font-family--headline: "Parkly", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
   --font-family--headline-wide: "Parkly Wide", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
   --font-family--headline-condensed: "Parkly Condensed", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
@@ -58,9 +58,9 @@
   }
 
   @media print {
-    --font-size--headline-1: 43px;
-    --font-size--headline-2: 32px;
-    --font-size--headline-3: 14px;
+    --font-size--headline-1: 33px;
+    --font-size--headline-2: 25px;
+    --font-size--headline-3: 19px;
     --font-size--body: 16px;
     --font-size--body--large: 18px;
     --font-size--body--small: 12px;
@@ -160,12 +160,18 @@ h2 {
 .b--resume {
   dl {
     dt {
+      margin-bottom: var(--spacing--1);
       font-size: var(--font-size--body--large);
+      line-height: 1.2;
       color: var(--color--foreground-2);
     }
 
     dd + dt {
-      margin-top: var(--spacing--2);
+      margin-top: var(--spacing--3);
+
+      @media print {
+        margin-top: var(--spacing--2);
+      }
     }
 
     dd {
