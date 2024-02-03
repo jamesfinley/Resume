@@ -38,11 +38,13 @@
   --font-family--headline-wide: "Parkly Wide", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
   --font-family--headline-condensed: "Parkly Condensed", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
   --font-family--body: "Lora", "Charter", "Bitstream Charter", "Sitka Text", "Cambria", serif;
-  --color--foreground-1: #000;
+  --color--foreground-1: rgb(0 0 0 / 70%);
+  --color--foreground-2: rgb(0 0 0 / 80%);
   --color--background-1: #fff;
 
   @media (prefers-color-scheme: dark) {
-    --color--foreground-1: rgb(255 255 255 / 70%);
+    --color--foreground-1: rgb(255 255 255 / 60%);
+    --color--foreground-2: rgb(255 255 255 / 80%);
     --color--background-1: #222;
   }
 
@@ -53,6 +55,9 @@
     --font-size--body: 16px;
     --font-size--body--large: 18px;
     --font-size--body--small: 12px;
+    --color--foreground-1: #000;
+    --color--foreground-2: #000;
+    --color--background-1: #fff;
   }
 }
 
@@ -98,14 +103,9 @@ header {
   h1 {
     width: 100px;
     height: 100px;
-    background-color: var(--color--foreground-1);
+    background-color: var(--color--foreground-2);
     mask: url("../images/mark.svg") no-repeat center;
     text-indent: -9000px;
-
-    img {
-      display: block;
-      height: 100px;
-    }
   }
 
   p {
@@ -113,6 +113,10 @@ header {
     font-size: var(--font-size--headline-3);
     text-align: center;
     text-wrap: balance;
+
+    strong {
+      color: var(--color--foreground-2);
+    }
 
     @media print {
       max-width: 70ch;
@@ -132,6 +136,7 @@ main {
 h2 {
   font-family: var(--font-family--headline);
   font-size: var(--font-size--headline-2);
+  color: var(--color--foreground-2);
 
   @media (max-width: 640px) {
     text-align: center;
@@ -142,6 +147,7 @@ h2 {
   dl {
     dt {
       font-size: var(--font-size--body--large);
+      color: var(--color--foreground-2);
     }
 
     dd + dt {
@@ -153,6 +159,8 @@ h2 {
       font-size: var(--font-size--body--small);
 
       strong {
+        color: var(--color--foreground-2);
+
         &::after {
           content: ":";
         }
