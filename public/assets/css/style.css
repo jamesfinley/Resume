@@ -28,6 +28,7 @@
 }
 
 :root {
+  /* fonts */
   --font-size--headline-1: clamp(43px, 8vw, 72px);
   --font-size--headline-2: clamp(32px, 6vw, 54px);
   --font-size--headline-3: clamp(18px, 4vw, 30px);
@@ -38,9 +39,17 @@
   --font-family--headline-wide: "Parkly Wide", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
   --font-family--headline-condensed: "Parkly Condensed", "Bahnschrift", "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
   --font-family--body: "Lora", "Charter", "Bitstream Charter", "Sitka Text", "Cambria", serif;
+
+  /* colors */
   --color--foreground-1: rgb(0 0 0 / 70%);
   --color--foreground-2: rgb(0 0 0 / 80%);
   --color--background-1: #fff;
+
+  /* spacing */
+  --spacing--1: 8px;
+  --spacing--2: 16px;
+  --spacing--3: 32px;
+  --spacing--4: 64px;
 
   @media (prefers-color-scheme: dark) {
     --color--foreground-1: rgb(255 255 255 / 60%);
@@ -70,20 +79,20 @@ body {
   font-size: var(--font-size--body);
   line-height: 1.5;
   color: var(--color--foreground-1);
-  margin-block: 56px;
+  margin-block: var(--spacing--4);
 
   @media print {
     margin-block: 0;
   }
 
   > * + * {
-    margin-top: 16px;
+    margin-top: var(--spacing--2);
   }
 }
 
 .flow {
   > * + * {
-    margin-top: 16px;
+    margin-top: var(--spacing--2);
   }
 }
 
@@ -92,8 +101,8 @@ header {
   flex-direction: column;
   align-items: center;
   width: 1200px;
-  max-width: calc(100% - 32px);
-  margin-bottom: 32px;
+  max-width: calc(100% - var(--spacing--3));
+  margin-bottom: var(--spacing--3);
 
   @media print {
     width: auto;
@@ -131,7 +140,7 @@ header {
 
 main {
   width: 600px;
-  max-width: calc(100% - 32px);
+  max-width: calc(100% - var(--spacing--3));
 
   @media print {
     width: auto;
@@ -156,11 +165,11 @@ h2 {
     }
 
     dd + dt {
-      margin-top: 16px;
+      margin-top: var(--spacing--2);
     }
 
     dd {
-      margin-left: 16px;
+      margin-left: var(--spacing--2);
       font-size: var(--font-size--body--small);
 
       strong {
@@ -187,11 +196,11 @@ h2 {
     /* Date range */
     dd:has(+ dt),
     dd:last-child {
-      margin-top: 8px;
+      margin-top: var(--spacing--1);
     }
   }
 
   dl + h2 {
-    margin-top: 32px;
+    margin-top: var(--spacing--3);
   }
 }
