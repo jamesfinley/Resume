@@ -26,7 +26,7 @@
 : *August 2017 -- August 2018*
 
 **Emerson Climate Technologies** - Front-End Web Developer
-: Constructed user experiences for ComfortGuard and built the new SensiComfort.com on Craft CMS.
+: At Emerson, I spearheaded the development of polished user experiences across various products, including ComfortGuard and Sensi. I also designed mobile-friendly email notifications. Additionally, I crafted a visually appealing marketing website for Sensi using Craft CMS. This website streamlined access to answers for common questions, highlighted new and upcoming features, and facilitated the purchase and installation of the Sensi thermostat.
 : **Skills used**
 	- HTML
 	- CSS
@@ -38,7 +38,7 @@
 : *March 2016 -- June 2017*
 
 **HLK** - Front-End Web Developer
-: Kept content up to date for clients, such as Monsanto
+: Kept content up to date for clients, such as Monsanto.
 : **Skills used**
 	- Responsive Web Design
 	- PHP
