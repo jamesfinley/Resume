@@ -14,7 +14,7 @@
 : *August 2018 -- February 2024*
 
 **Intercard** - iOS Engineer
-: Built a series of iOS and Android apps for in-store and customer use.
+: I joined the team to create cross-platform mobile apps that handle card balances for arcades and gaming businesses. Along the way, I also got involved in the building of a web app for making reservations for parties and events, while mentoring a young developer that was on the project.
 : **Skills used**
 	- Swift
 	- C#
