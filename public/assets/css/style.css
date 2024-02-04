@@ -96,6 +96,16 @@ body {
   }
 }
 
+a {
+  --color: #1aa5c9;
+
+  color: var(--color);
+
+  &:hover {
+    --color: #10718b;
+  }
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -182,7 +192,7 @@ h2 {
         color: var(--color--foreground-2);
       }
     }
-    
+
     /* Skills */
     dt + dd + dd {
       margin-top: var(--spacing--1);
@@ -204,7 +214,7 @@ h2 {
           }
         }
       }
-    } 
+    }
 
     /* Date range */
     dd:has(+ dt),
@@ -215,5 +225,26 @@ h2 {
 
   dl + h2 {
     margin-top: var(--spacing--3);
+  }
+}
+
+footer {
+  display: flex;
+  gap: 4px;
+  margin-top: var(--spacing--4);
+
+  #footer--github {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 24px;
+      height: 24px;
+      background: var(--color);
+      mask: url("../images/github.svg") no-repeat center;
+    }
   }
 }
