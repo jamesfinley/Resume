@@ -110,7 +110,7 @@
 : *December 2009 -- January 2011*
 
 **Clear Channel Radio** - Senior Online Content Manager
-: Built an application for managing the ofice paperwork that covered everthing from the sale of an ad to a client to the production and airing of the ad on the radio. Not only this, but was also largely in charge of the websites for two radio stations in Chicago.
+: I led the development of an application for managing the office paperwork that covered everything from the sale of an ad to a client to the production and airing of the ad on the radio. Not only this, but I was also largely in charge of the websites for two radio stations in Chicago.
 : **Skills used**
 	- PHP
 	- Code Igniter
