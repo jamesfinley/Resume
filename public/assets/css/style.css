@@ -199,8 +199,8 @@ h2 {
       }
     }
     
-    /* Description */
-    dt + dd {
+    /* Skills */
+    dt + dd + dd {
       margin-top: var(--spacing--1);
     } 
 
