@@ -98,6 +98,20 @@ body {
   }
 }
 
+.hidden-on-screen {
+  display: none;
+
+  @media print {
+    display: inherit;
+  }
+}
+
+.hidden-on-print {
+  @media print {
+    display: none !important;
+  }
+}
+
 a {
   --color: var(--color--link);
 
