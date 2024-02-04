@@ -44,6 +44,8 @@
   --color--foreground-1: rgb(0 0 0 / 70%);
   --color--foreground-2: rgb(0 0 0 / 80%);
   --color--background-1: #fff;
+  --color--link: #1aa5c9;
+  --color--link--hover: #10718b;
 
   /* spacing */
   --spacing--1: 8px;
@@ -97,12 +99,12 @@ body {
 }
 
 a {
-  --color: #1aa5c9;
+  --color: var(--color--link);
 
   color: var(--color);
 
   &:hover {
-    --color: #10718b;
+    --color: var(--color--link--hover);
   }
 }
 
@@ -230,8 +232,12 @@ h2 {
 
 footer {
   display: flex;
+  justify-content: center;
   gap: 4px;
+  width: 600px;
+  max-width: calc(100% - var(--spacing--3));
   margin-top: var(--spacing--4);
+  text-wrap: balance;
 
   #footer--github {
     display: inline-flex;
