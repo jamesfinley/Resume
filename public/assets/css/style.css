@@ -180,7 +180,14 @@ h2 {
 
       strong {
         color: var(--color--foreground-2);
+      }
+    }
+    
+    /* Skills */
+    dt + dd + dd {
+      margin-top: var(--spacing--1);
 
+      strong {
         &::after {
           content: ":";
         }
@@ -197,11 +204,6 @@ h2 {
           }
         }
       }
-    }
-    
-    /* Skills */
-    dt + dd + dd {
-      margin-top: var(--spacing--1);
     } 
 
     /* Date range */
