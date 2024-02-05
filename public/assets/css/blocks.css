@@ -25,9 +25,20 @@
       }
     }
 
+    /* Description */
+    dt + dd {
+      @media print {
+        page-break-before: avoid;
+      }
+    }
+
     /* Skills */
     dt + dd + dd {
       margin-top: var(--spacing--1);
+
+      @media print {
+        page-break-before: avoid;
+      }
 
       strong {
         &::after {
@@ -52,6 +63,10 @@
     dd:has(+ dt),
     dd:last-child {
       margin-top: var(--spacing--1);
+
+      @media print {
+        page-break-before: avoid;
+      }
     }
   }
 
