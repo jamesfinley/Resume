@@ -28,7 +28,6 @@
     /* Description */
     dt + dd {
       @media print {
-        page-break-inside: avoid;
         page-break-before: avoid;
       }
     }
@@ -38,7 +37,6 @@
       margin-top: var(--spacing--1);
 
       @media print {
-        page-break-inside: avoid;
         page-break-before: avoid;
       }
 
@@ -67,7 +65,6 @@
       margin-top: var(--spacing--1);
 
       @media print {
-        page-break-inside: avoid;
         page-break-before: avoid;
       }
     }
