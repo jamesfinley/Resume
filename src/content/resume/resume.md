@@ -98,7 +98,7 @@
 : *January 2011 -- June 2011*
 
 **Community Christian Church** - Web Development Director
-: Built a new website that brings a brand new view of social interactivity to church websites and also brings a full online church system for running both live and prerecorded services. Honing skills in AJAX, Flash, PHP and relational databases.
+: I built a new web application that brought a brand new view of social interactivity to church websites and also brought a full online church system for running both live and prerecorded services. I honed my skills in asynchronous JavaScript, Flash, PHP and relational databases.
 : **Skills used**
 	- PHP
 	- Code Igniter
