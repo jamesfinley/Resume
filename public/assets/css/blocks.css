@@ -78,7 +78,7 @@
     height: 100px;
     background-color: var(--color--foreground-2);
     mask: url("../images/mark.svg") no-repeat center;
-    mask-size: cover;
+    mask-size: contain;
     text-indent: -9000px;
 
     @media print {
