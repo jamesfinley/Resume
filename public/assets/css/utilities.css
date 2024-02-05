@@ -1,0 +1,39 @@
+.flow {
+  > * + * {
+    margin-top: var(--spacing--2);
+  }
+}
+
+.hidden-on-screen {
+  display: none;
+
+  @media print {
+    display: inherit;
+  }
+}
+
+.hidden-on-print {
+  @media print {
+    display: none !important;
+  }
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  border-radius: 24px;
+  background-color: var(--color);
+  color: #fff;
+  text-decoration: none;
+  padding-inline: 16px;
+
+  &:hover {
+    --color: var(--color--link--hover);
+  }
+
+  &.cta {
+    font-size: var(--font-size--body--large);
+  }
+}

@@ -1,0 +1,136 @@
+.b--resume {
+  dl {
+    dt {
+      margin-bottom: var(--spacing--1);
+      font-size: var(--font-size--body--large);
+      line-height: 1.2;
+      color: var(--color--foreground-2);
+    }
+
+    dd + dt {
+      margin-top: var(--spacing--3);
+
+      @media print {
+        margin-top: var(--spacing--2);
+      }
+    }
+
+    dd {
+      margin-left: var(--spacing--2);
+      font-size: var(--font-size--body--small);
+
+      strong {
+        color: var(--color--foreground-2);
+      }
+    }
+
+    /* Skills */
+    dt + dd + dd {
+      margin-top: var(--spacing--1);
+
+      strong {
+        &::after {
+          content: ":";
+        }
+      }
+
+      ul {
+        display: inline;
+
+        li {
+          display: inline;
+
+          &:not(:last-child)::after {
+            content: ", ";
+          }
+        }
+      }
+    }
+
+    /* Date range */
+    dd:has(+ dt),
+    dd:last-child {
+      margin-top: var(--spacing--1);
+    }
+  }
+
+  dl + h2 {
+    margin-top: var(--spacing--3);
+  }
+}
+
+.b--header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  max-width: calc(100% - var(--spacing--4));
+  margin-bottom: var(--spacing--3);
+
+  @media print {
+    width: auto;
+    max-width: 100%;
+  }
+
+  h1 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color--foreground-2);
+    mask: url("../images/mark.svg") no-repeat center;
+    text-indent: -9000px;
+
+    @media print {
+      background: url("../images/mark.svg") no-repeat center;
+      mask: none;
+    }
+  }
+
+  p {
+    max-width: 60ch;
+    font-size: var(--font-size--headline-3);
+    text-align: center;
+    text-wrap: balance;
+
+    strong {
+      color: var(--color--foreground-2);
+    }
+
+    @media print {
+      max-width: 70ch;
+    }
+  }
+}
+
+.b--footer {
+  width: 600px;
+  max-width: calc(100% - var(--spacing--3));
+  margin-top: var(--spacing--4);
+  text-wrap: balance;
+  text-align: center;
+
+  .footer--link {
+    position: relative;
+    display: inline-block;
+    padding-left: calc(24px + var(--spacing--1) / 2);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: calc(50% - 12px);
+      left: 0;
+      display: block;
+      width: 24px;
+      height: 24px;
+      background: var(--color);
+      mask: url("../images/github.svg") no-repeat center;
+    }
+  }
+
+  #footer--linkedin::before {
+    mask-image: url("../images/linkedin.svg");
+  }
+
+  #footer--github::before {
+    mask-image: url("../images/github.svg");
+  }
+}
