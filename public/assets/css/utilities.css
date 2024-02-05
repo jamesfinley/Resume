@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: center;
   height: 48px;
+  box-sizing: border-box;
   border-radius: 24px;
   background-color: var(--color);
   color: #fff;
@@ -35,5 +36,11 @@
 
   &.cta {
     font-size: var(--font-size--body--large);
+  }
+
+  &[data-variant="secondary"] {
+    border: 2px solid var(--color);
+    background: transparent;
+    color: var(--color);
   }
 }
