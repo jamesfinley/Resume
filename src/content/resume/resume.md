@@ -38,8 +38,9 @@
 : *March 2016 -- June 2017*
 
 **HLK** - Front-End Web Developer
-: Kept content up to date for clients, such as Monsanto.
+: I built and maintained WordPress sites for clients, including Monsanto.
 : **Skills used**
+	- WordPress
 	- Responsive Web Design
 	- PHP
 	- mySQL
@@ -50,7 +51,7 @@
 : *July 2015 -- January 2016*
 
 **eTecc / Interactive** - Software Engineer
-: Built large-scale PHP/mySQL applications for car dealership industry and white-label iOS apps for dealership customers, deploying over a dozen apps for Ford, Mazda, Nissan, and more.
+: While at eTecc, I built large-scale PHP/mySQL applications for car dealership industry and white-label iOS apps for dealership customers, deploying over a dozen apps for Ford, Mazda, Nissan, and more. These apps allowed for insurance claims to be filed by customers and managed by employees.
 : **Skills used**
 	- Responsive Web Design
 	- PHP
@@ -62,7 +63,7 @@
 : *July 2013 -- July 2015*
 
 **higi** - Front-End Developer
-: Developed higi's web portal, brought responsive web technology to their site, and worked with the team to conceive and build new features.
+: I helped the redevelopment of higi's marketing site to support mobile devices with responsive web development techniques and worked with the team to conceive, plan, and build new features for their web app using PHP, mySQL, and modern web standards.
 : **Skills used**
 	- Responsive Web Design
 	- PHP
@@ -74,7 +75,7 @@
 : *September 2012 -- June 2013*
 
 **Echo Design Group** - Senior Web Developer
-: Came on board right as the whole Responsive Web Design movement kicked off, built many sites from start to launch, working with the design team to implement strong, mobile-friendly design. Also much was done to improve the organizational workflow, utilizing Github for deployment and version control.
+: Joining the team right as the whole Responsive Web Design movement kicked off, I built a dozen sites from start to launch, working with the design team to implement strong, mobile-friendly experiences. I also helped them improve their organizational workflow, including utilizing Github for deployment and version control and built a custom CMS for managing web sites.
 : **Skills used**
 	- Responsive Web Design
 	- PHP
