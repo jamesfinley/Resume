@@ -1,4 +1,14 @@
 ## Experience
+**KnowInk** - Senior Engineer II
+: **Skills used**
+	- React
+	- Angular
+	- TypeScript
+	- JavaScript
+	- UX
+	- Cypress
+: *March 2024 -- April 2025*
+
 **WWT** - Lead UX Frontend Engineer
 : Over the span of five years, I led dynamic teams in delivering innovative solutions for clients across diverse sectors, including banking, communications, utilities, education, and medical technologies. My expertise lies in leveraging modern frontend frameworks such as React and Angular, along with CMS software like Craft CMS. My unwavering focus on user experience ensures lightning-fast interfaces, highly accessible applications, and delightful interactions with every tap.
 : **Skills used**
