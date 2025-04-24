@@ -1,5 +1,6 @@
 ## Experience
-**KnowInk** - Senior Engineer II
+**KnowInk** - Senior Software Engineer II
+: From modern React and Angular projects to Blazor and C#, I worked on implementing standards- and test-driven solutions.
 : **Skills used**
 	- React
 	- Angular
@@ -7,6 +8,7 @@
 	- JavaScript
 	- UX
 	- Cypress
+	- test-driven development
 : *March 2024 -- April 2025*
 
 **WWT** - Lead UX Frontend Engineer
@@ -21,6 +23,7 @@
 	- Craft CMS
 	- UX
 	- interface design
+	- test-driven development
 : *August 2018 -- February 2024*
 
 **Intercard** - iOS Engineer
