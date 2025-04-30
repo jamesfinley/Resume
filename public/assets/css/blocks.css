@@ -60,10 +60,19 @@
       }
     }
 
+    /* Skills */
+    dt + dd + dd {
+      margin-top: var(--spacing--1);
+
+      @media print {
+        page-break-before: avoid;
+      }
+    }
+
     /* Date range */
     dd:has(+ dt),
     dd:last-child {
-      margin-top: var(--spacing--1);
+      /* margin-top: var(--spacing--1); */
 
       @media print {
         page-break-before: avoid;
