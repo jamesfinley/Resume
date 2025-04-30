@@ -1,18 +1,23 @@
 ## Experience
 **KnowInk** - Senior Software Engineer II
-: From modern React and Angular projects to Blazor and C#, I worked on implementing standards- and test-driven solutions.
+: From modern React and Angular projects to Blazor and C#, I worked on implementing standards- and test-driven solutions. I helped build the foundations of a Stencil-based web component library to standardize our UX across many applications in multiple frameworks and languages. This component library was built test-driven with Testing Library, the same library used in countless React projects, and had 100% coverage. I also was charged with spearheading a Cypress test library to cover the TotalVote voter registration software to reduce the time required by QAs to manually test the application and catch potential bugs earlier in the development cycle.
 : **Skills used**
 	- React
 	- Angular
 	- TypeScript
 	- JavaScript
+	- Stencil Web Components
 	- UX
 	- Cypress
+	- Testing Library
 	- test-driven development
+	- Git
+	- NPM
 : *March 2024 -- April 2025*
 
-**WWT** - Lead UX Frontend Engineer
+**WWT/Asynchrony** - Lead UX Frontend Engineer
 : Over the span of five years, I led dynamic teams in delivering innovative solutions for clients across diverse sectors, including banking, communications, utilities, education, and medical technologies. My expertise lies in leveraging modern frontend frameworks such as React and Angular, along with CMS software like Craft CMS. My unwavering focus on user experience ensures lightning-fast interfaces, highly accessible applications, and delightful interactions with every tap.
+: Asynchrony practiced two distinct things with fervor: pair programming and test-driven development. At Asynchrony, I learned and honed my understanding of unit test-driven development and end-to-end testing with Selenium and Cypress. Write a test, write the passing code, refactor the code. This lead to all but one of my projects having 100% test coverage, including over everything from APIs, React API fetching, application logic, and UI components. You can call me a true believer.
 : **Skills used**
 	- React
 	- Angular
@@ -23,7 +28,14 @@
 	- Craft CMS
 	- UX
 	- interface design
+	- Selenium
+	- Cypress
+	- unit tests
+	- Jest
+	- Testing Library
 	- test-driven development
+	- Git
+	- NPM
 : *August 2018 -- February 2024*
 
 **Intercard** - iOS Engineer
@@ -36,6 +48,8 @@
 	- JavaScript
 	- HTML
 	- CSS
+	- Git
+	- NPM
 : *August 2017 -- August 2018*
 
 **Emerson Climate Technologies** - Front-End Web Developer
@@ -48,6 +62,8 @@
 	- JavaScript
 	- Node.js
 	- Craft CMS
+	- Git
+	- NPM
 : *March 2016 -- June 2017*
 
 **HLK** - Front-End Web Developer
@@ -61,6 +77,7 @@
 	- Sass/CSS
 	- JavaScript
 	- Objective-C
+	- Git
 : *July 2015 -- January 2016*
 
 **eTecc / Interactive** - Software Engineer
@@ -73,6 +90,7 @@
 	- Sass/CSS
 	- design
 	- Objective-C
+	- Git
 : *July 2013 -- July 2015*
 
 **higi** - Front-End Developer
@@ -85,6 +103,7 @@
 	- Sass/CSS
 	- jQuery
 	- design
+	- Git
 : *September 2012 -- June 2013*
 
 **Echo Design Group** - Senior Web Developer
@@ -97,6 +116,7 @@
 	- Sass/CSS
 	- jQuery
 	- design
+	- Git
 : *July 2011 -- August 2012*
 
 **Abt** - Developer

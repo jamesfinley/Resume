@@ -23,39 +23,40 @@
       strong {
         color: var(--color--foreground-2);
       }
+
+      /* Skills */
+      &:has(+ dd + dt),
+      &:has(+ dd:last-child) {
+        margin-top: var(--spacing--1);
+
+        @media print {
+          page-break-before: avoid;
+        }
+
+        strong {
+          &::after {
+            content: ":";
+          }
+        }
+
+        ul {
+          display: inline;
+
+          li {
+            display: inline;
+
+            &:not(:last-child)::after {
+              content: ", ";
+            }
+          }
+        }
+      }
     }
 
     /* Description */
     dt + dd {
       @media print {
         page-break-before: avoid;
-      }
-    }
-
-    /* Skills */
-    dt + dd + dd {
-      margin-top: var(--spacing--1);
-
-      @media print {
-        page-break-before: avoid;
-      }
-
-      strong {
-        &::after {
-          content: ":";
-        }
-      }
-
-      ul {
-        display: inline;
-
-        li {
-          display: inline;
-
-          &:not(:last-child)::after {
-            content: ", ";
-          }
-        }
       }
     }
 
