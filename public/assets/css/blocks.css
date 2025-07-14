@@ -61,7 +61,8 @@
     }
 
     /* Skills */
-    dt + dd + dd {
+    dt + dd + dd,
+    dt + dd + dd + dd {
       margin-top: var(--spacing--1);
 
       @media print {
@@ -82,6 +83,26 @@
 
   dl + h2 {
     margin-top: var(--spacing--3);
+  }
+
+  #skills + ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+
+    li {
+      padding: 4px 8px;
+      border: 1px solid color-mix(in srgb, var(--background), #000 10%);
+      border-radius: 4px;
+      background: var(--background);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--color--highlighted-copy);
+      white-space: nowrap;
+
+      --background: var(--color--highlight);
+    }
   }
 }
 

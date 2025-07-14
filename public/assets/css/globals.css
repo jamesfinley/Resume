@@ -46,6 +46,8 @@
   --color--background-1: #fff;
   --color--link: #1aa5c9;
   --color--link--hover: #10718b;
+  --color--highlight: color-mix(in srgb, #ff0, #fff 90%);
+  --color--highlighted-copy: #222;
 
   /* spacing */
   --spacing--1: 8px;
@@ -57,6 +59,7 @@
     --color--foreground-1: rgb(255 255 255 / 60%);
     --color--foreground-2: rgb(255 255 255 / 80%);
     --color--background-1: #222;
+    --color--highlight: color-mix(in srgb, #ff0, #fff 90%);
   }
 
   @media print {

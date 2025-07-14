@@ -1,5 +1,5 @@
-import { defineConfig } from 'astro/config';
-import { remarkDefinitionList, defListHastHandlers } from 'remark-definition-list';
+import { defineConfig } from 'astro/config'
+import { remarkDefinitionList, defListHastHandlers } from 'remark-definition-list'
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,5 +10,6 @@ export default defineConfig({
         ...defListHastHandlers
       }
     }
-  }
-});
+  },
+  devToolbar: { enabled: false }
+})
