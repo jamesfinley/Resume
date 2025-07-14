@@ -91,12 +91,16 @@
     gap: 8px;
     list-style: none;
 
+    @media print {
+      max-width: 55ch;
+    }
+
     li {
       padding: 4px 8px;
       border: 1px solid color-mix(in srgb, var(--background), #000 10%);
       border-radius: 4px;
       background: var(--background);
-      font-size: 18px;
+      font-size: var(--font-size--body);
       font-weight: 700;
       color: var(--color--highlighted-copy);
       white-space: nowrap;
