@@ -7,6 +7,9 @@
 - Frontend Engineering (10+ yrs)
 
 ## Experience
+**Brevity** - Senior Web Developer
+: *August 2025 -- present*
+
 **KnowInk** - Senior Software Engineer II
 : From modern React and Angular projects to Blazor and C#, I worked on implementing standards- and test-driven solutions. I helped build the foundations of a Stencil-based web component library to standardize our UX across many applications in multiple frameworks and languages. This component library was built test-driven with Testing Library, the same library used in countless React projects, and had 100% coverage. I also was charged with spearheading a Cypress test library to cover the TotalVote voter registration software to reduce the time required by QAs to manually test the application and catch potential bugs earlier in the development cycle.
 : **Skills used**
