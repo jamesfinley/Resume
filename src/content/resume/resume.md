@@ -8,12 +8,16 @@
 
 ## Experience
 **Brevity** - Senior Web Developer
+: Built dynamic marketing sites powered by WordPress and ACF blocks, custom themes built on modern CSS and HTML including anchor positioning, CSS custom props, advanced selectors, and Motion.dev.
 : **Skills used**
- - WordPress
- - CSS
- - JavaScript
- - UX
- - Accessibility
+	- WordPress
+	- WordPress ACF
+	- Motion.dev
+	- jQuery
+	- CSS
+	- JavaScript
+	- UX
+	- Accessibility
 : *August 2025 -- March 2026*
 
 **KnowInk** - Senior Software Engineer II
