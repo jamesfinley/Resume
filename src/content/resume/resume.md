@@ -9,11 +9,11 @@
 ## Experience
 **Brevity** - Senior Web Developer
 : **Skills used**
-- WordPress
-- CSS
-- JavaScript
-- UX
-- Accessibility
+ - WordPress
+ - CSS
+ - JavaScript
+ - UX
+ - Accessibility
 : *August 2025 -- March 2026*
 
 **KnowInk** - Senior Software Engineer II
