@@ -8,7 +8,7 @@
 
 ## Experience
 **Brevity** - Senior Web Developer
-: Built dynamic marketing sites powered by WordPress and ACF blocks, custom themes built on modern CSS and HTML including anchor positioning, CSS custom props, advanced selectors, and Motion.dev.
+: Built dynamic marketing sites powered by WordPress and ACF blocks, custom themes built on modern [CSS](https://finley.im/2025/10/29/clamping-with-max-and-min-viewports) and [HTML](https://finley.im/2025/10/17/full-bleed-images-one-side) including anchor positioning, CSS [custom props](https://finley.im/2025/09/17/css-custom-properties-and-has-look-ahead), [advanced selectors](https://finley.im/2025/09/12/has-selector), and Motion.dev.
 : **Skills used**
 	- WordPress
 	- WordPress ACF
